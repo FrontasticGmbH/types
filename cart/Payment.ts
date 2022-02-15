@@ -1,9 +1,13 @@
-export interface Payment {
-  paymentStatusInit: 'init';
-  paymentStatusPending: 'pending';
-  paymentStatusPaid: 'paid';
-  paymentStatusFailed: 'failed';
+import { Money } from '../product/Money';
 
+export enum PaymentStatuses {
+  INIT = 'init',
+  PENDING = 'pending',
+  PAID = 'paid',
+  FAILED = 'failed',
+}
+
+export interface Payment {
   /**
    * An internal ID to identify this payment
    */
@@ -20,12 +24,9 @@ export interface Payment {
   paymentId: string;
 
   /**
-   * Amount in cent
+   * How much money this payment intends to receive from the customer. The value usually matches the cart or order gross total.
    */
-  amount: number;
-
-  // TODO: decide if we want to relay on the context to provide the currency
-  // currency?: string
+  amountPlanned: Money;
 
   /**
    * A text describing the current status of the payment
@@ -33,7 +34,7 @@ export interface Payment {
   debug?: string;
 
   /**
-   * One of the `PAYMENT_STATUS_*` constants
+   * One of the `PaymentStatuses` constants
    */
   paymentStatus: string;
 
@@ -44,5 +45,6 @@ export interface Payment {
    */
   paymentMethod: string;
 
+  // TODO: do we need paymentDetails if not using custom fields?
   paymentDetails?: [];
 }
