@@ -1,7 +1,9 @@
 export enum FilterFieldTypes {
   BOOLEAN = 'boolean',
   ENUM = 'enum',
+  LOCALIZED_ENUM = 'localizedEnum',
   TEXT = 'text',
+  LOCALIZED_TEXT = 'localizedText',
   NUMBER = 'number',
 }
 
@@ -15,6 +17,6 @@ export interface FilterField {
   field: string;
   type: string;
   translatable?: boolean;
-  label: string;
+  label?: string;
   values?: FilterFieldValue[];
 }
