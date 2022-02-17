@@ -1,9 +1,7 @@
 export enum FilterFieldTypes {
   BOOLEAN = 'boolean',
   ENUM = 'enum',
-  LOCALIZED_ENUM = 'localizedEnum',
   TEXT = 'text',
-  LOCALIZED_TEXT = 'localizedText',
   NUMBER = 'number',
 }
 
