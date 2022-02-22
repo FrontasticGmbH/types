@@ -5,4 +5,6 @@ export interface RangeFacet extends Facet {
   min?: number;
   max?: number;
   count?: number;
+  minSelected?: number;
+  maxSelected?: number;
 }
