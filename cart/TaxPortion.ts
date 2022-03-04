@@ -1,10 +1,7 @@
+import { Money } from '../product/Money';
+
 export interface TaxPortion {
-  /**
-   * Amount in cent
-   */
-  amount?: number;
-  // TODO: should we keep currency or leave it on the context as in Product.Variant
-  // currency?: string
+  amount?: Money;
   name?: string;
 
   /**

@@ -1,5 +1,7 @@
+import { Money } from '../product/Money';
+
 export interface Discount {
-  discountId: string;
+  discountId?: string;
   code?: string;
   state?: string;
   name?: string;
@@ -11,5 +13,5 @@ export interface Discount {
    * On Cart, the amount discounted in the cart.
    * On LineItem, the amount discounted per single line item.
    */
-  discountedAmount?: number;
+  discountedAmount?: Money;
 }

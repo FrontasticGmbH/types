@@ -1,10 +1,8 @@
 import { TaxPortion } from './TaxPortion';
+import { Money } from '../product/Money';
 
 export interface Tax {
-  amount: number; // Net amount in cent
-
-  // TODO: should we keep currency or leave it on the context as in Product.Variant
-  // currency?: string
+  amount: Money;
   name?: string;
   taxPortions?: TaxPortion[];
 }
