@@ -7,4 +7,5 @@ export interface LineItem {
   addedAt?: Date;
   count?: number;
   variant?: Variant;
+  _url?: string;
 }
