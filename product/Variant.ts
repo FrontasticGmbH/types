@@ -10,5 +10,5 @@ export interface Variant {
   discounts?: string[]; // Discount descriptions
   attributes?: Attributes;
   images?: string[];
-  isOnStock: boolean;
+  isOnStock?: boolean;
 }
