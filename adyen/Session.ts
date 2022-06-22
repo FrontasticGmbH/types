@@ -25,3 +25,14 @@ export interface SessionResponse {
   reference: string;
   returnUrl: string;
 }
+
+export interface PaymentDetails {
+  details: {
+    redirectResult: string;    
+  }
+}
+
+export interface PaymentDetailsResponse {
+  resultCode: string;
+  pspReference: string;
+}
