@@ -1,5 +1,5 @@
 export interface Category {
-  categoryId: string;
+  categoryId?: string;
   name?: string;
   depth?: number;
   path?: string;
