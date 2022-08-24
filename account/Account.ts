@@ -13,7 +13,6 @@ export interface Account {
   groups?: Group[];
   confirmationToken?: AccountToken;
   confirmed?: boolean;
-  tokenValidUntil?: Date;
   addresses?: Address[];
   apiToken?: string;
 }
