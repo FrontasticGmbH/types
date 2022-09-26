@@ -1,7 +1,7 @@
 export interface Category {
-  categoryId: string;
+  categoryId?: string;
   name?: string;
   depth?: number;
-  path?: string;
+  _url?: string;
   slug?: string;
 }
