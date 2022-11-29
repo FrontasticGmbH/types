@@ -1,13 +1,5 @@
 
-## Version 1.0.1-alpha.0 (2022-11-29)
-
-Initial release
-
-## Version 1.0.0-alpha.0 (2022-11-29)
-
-Initial release
-
-## Version 1.0.1 (2022-07-20)
+# Version 1.0.1 (2022-07-20)
 
 ** New Features and Improvements **
 
