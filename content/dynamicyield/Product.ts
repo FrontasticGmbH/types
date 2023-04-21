@@ -1,3 +1,5 @@
+import { Money } from './Money';
+
 export interface Product {
   sku?: string;
   name?: string;
@@ -5,4 +7,5 @@ export interface Product {
   imageUrl?: string;
   productType: string;
   categories?: string;
+  price?: Money
 }
