@@ -9,4 +9,7 @@ export interface Content {
   contentTypeId: string;
   name?: string;
   attributes?: Attributes;
+  title?: string;
+  summary?: string;
+  banner?: string;
 }
