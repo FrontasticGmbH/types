@@ -8,14 +8,14 @@ import { Result } from './Result';
 import { Variant } from './Variant';
 
 export {
-  Attributes,
-  Category,
-  FacetDefinition,
-  FilterFieldTypes,
-  FilterFieldValue,
-  FilterField,
-  Money,
-  Product,
-  Result,
-  Variant,
+  type Attributes,
+  type Category,
+  type FacetDefinition,
+  type FilterFieldTypes,
+  type FilterFieldValue,
+  type FilterField,
+  type Money,
+  type Product,
+  type Result,
+  type Variant,
 };

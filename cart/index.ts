@@ -11,16 +11,16 @@ import { Tax } from './Tax';
 import { TaxPortion } from './TaxPortion';
 
 export {
-  Cart,
-  Discount,
-  LineItem,
-  Order,
-  Payment,
-  PaymentStatuses,
-  ShippingInfo,
-  ShippingLocation,
-  ShippingMethod,
-  ShippingRate,
-  Tax,
-  TaxPortion,
+  type Cart,
+  type Discount,
+  type LineItem,
+  type Order,
+  type Payment,
+  type PaymentStatuses,
+  type ShippingInfo,
+  type ShippingLocation,
+  type ShippingMethod,
+  type ShippingRate,
+  type Tax,
+  type TaxPortion,
 };
