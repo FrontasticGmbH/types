@@ -1,4 +1,13 @@
 
+## Version 1.3.0 (2023-09-27)
+
+** New Features and Improvements **
+
+- Added type to export
+- Added index files for domain types
+- Removed unused methods for shipping
+- Added human readable facet label
+
 ## Version 1.2.0 (2023-08-29)
 
 ** New Features and Improvements **
