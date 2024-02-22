@@ -4,4 +4,6 @@ export interface Category {
   depth?: number;
   _url?: string;
   slug?: string;
+  parentId?: string;
+  subCategories?: Category[];
 }

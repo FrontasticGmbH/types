@@ -14,4 +14,6 @@ export interface Address {
   phone?: string;
   isDefaultBillingAddress?: boolean;
   isDefaultShippingAddress?: boolean;
+  isShippingAddress?: boolean;
+  isBillingAddress?: boolean;
 }
