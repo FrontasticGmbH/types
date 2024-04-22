@@ -1,5 +1,5 @@
-import { OrderState } from './Order';
-import { PaginatedQuery } from '../query';
+import { OrderState } from '../cart/Order';
+import { PaginatedQuery } from './index';
 
 export enum SortOrder {
   ASCENDING = 'ascending',
