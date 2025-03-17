@@ -1,6 +1,10 @@
 
 ## Version 0.0.14 (2025-03-17)
 
+- Internal code generation improvements
+
+## Version 0.0.14 (2025-03-17)
+
 ** New Features & Improvements **
 
 - Internal code generation updates
