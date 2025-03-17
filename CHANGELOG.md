@@ -1,13 +1,9 @@
 
-## Version 0.0.14 (2025-03-17)
-
-- Internal code generation improvements
-
-## Version 0.0.14 (2025-03-17)
+## Version 1.13.0 (2025-03-17)
 
 ** New Features & Improvements **
 
-- Internal code generation updates
+* Added metadata fields for product and categories
 
 ## Version 1.12.0 (2025-02-17)
 
