@@ -1,4 +1,3 @@
-
 ## Version 1.16.0 (2025-06-24)
 
 ** New Features & Improvements **
@@ -6,7 +5,6 @@
 - Enhance product query capabilities with dynamic filters and data source configuration
 - add support for multiple customer groups
 - add if check for discount and include missing field
-
 
 ** Bug Fixes **
 
@@ -29,7 +27,6 @@
 
 ## Version 1.14.1 (2025-04-15)
 
-
 ** Bug Fixes **
 
 * Add more fields to LineItem type
@@ -39,7 +36,8 @@
 ** New Features & Improvements **
 
 * Implement product filters and update product detail page structure
-* In B2C update ShippingInfo structure to replace taxIncludedInPrice with taxRate, and enhance CartMapper for shipping rate handling
+* In B2C update ShippingInfo structure to replace taxIncludedInPrice with taxRate, and enhance CartMapper for shipping
+  rate handling
 
 ## Version 1.13.0 (2025-03-17)
 
@@ -48,7 +46,6 @@
 * Added metadata fields for product and categories
 
 ## Version 1.12.0 (2025-02-17)
-
 
 ** New Features & Improvements **
 
@@ -67,14 +64,12 @@
 * Add discountOnTotalPrice on B2C Cart
 * Add direct discount and rename discount to DiscountCodes B2C
 
-
 ** Bug Fixes **
 
 * Set correct name for discount code id
 * Differenciated discounted amount and value for product and cart discounts
 
 ## Version 1.11.0 (2025-02-03)
-
 
 ** New Features & Improvements **
 
@@ -85,7 +80,7 @@
 
 ** New Features and Improvements **
 
-- Handled multi level category and included categoryId and categoryRef fields 
+- Handled multi level category and included categoryId and categoryRef fields
 - Included filters for product selection id
 - Added api method and mappers for new search
 
